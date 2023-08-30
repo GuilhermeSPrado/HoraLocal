@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#container,#current-time,#city-country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container{
+    border-radius: .2rem;
+    padding: .2rem;
+    border: 1px solid white;
+    background-color: rgba(0,0,0, .5);
+}
+
+#moon-sun-ico{
+   width: 1.4rem;
+}
+#greeting,#city-country{
+    font-size: 1.5rem;
+}
+#current-time{
+    height: 150px;
+    font-size: 2rem;
+    background:none
+}
